@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthCalc BMI</title>
+  <link
+    rel="stylesheet"
+    href="assets/css/style.css"
+  />
+</head>
+
+<body>
+  <main class="container">
+
+    <header>
+      <h1>HealthCalc BMI</h1>
+
+      <p class="subtitle">
+        Calculadora moderna de Índice de Massa Corporal
+      </p>
+    </header>
+
+    <form id="form">
+
+      <input
+        type="number"
+        id="peso"
+        placeholder="Peso (kg)"
+        required
+      />
+
+      <input
+        type="number"
+        id="altura"
+        placeholder="Altura (m)"
+        step="0.01"
+        required
+      />
+
+      <button type="submit">
+        Calcular IMC
+      </button>
+
+    </form>
+
+    <section id="resultado"></section>
+
+   <footer>
+      <p>Desenvolvido por LECR</p>
+    </footer>
+
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
