@@ -31,7 +31,7 @@ IMC = peso / altura²
 ---
 
 ## 📂 Estrutura do projeto
-
+```
 healthCalc-bmi
 │
 ├── index.html
@@ -48,7 +48,7 @@ healthCalc-bmi
 │
 └── docs
 └── preview.png
-
+```
 ---
 
 ## 🧪 Tecnologias utilizadas
